@@ -1,0 +1,440 @@
+{
+  "races": [
+    {
+      "name": "Dragonborn",
+      "description": "Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.",
+      "speed": 30,
+      "bonuses": [
+        { "name": "ST", "bonus": 2 },
+        { "name": "CH", "bonus": 1 }
+      ],
+      "standard_size": { "min": 182, "max": 200, "description": "" },
+      "standard_age": [15, 80],
+      "standard_weight": 250,
+      "languages": ["Common", "Draconic"],
+      "resistance": [
+        "You have resistance to the damage type associated with your draconic ancestry."
+      ],
+      "race_skills": [
+        {
+          "name": "Breath Weapon",
+          "description": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest."
+        }
+      ],
+      "under_species": [
+        {
+          "name": "Black",
+          "description": "5 by 30 ft. line (Dex. save)",
+          "under_race_resistance": ["Acid"]
+        },
+        {
+          "name": "Blue",
+          "description": "5 by 30 ft. line (Dex. save)",
+          "under_race_resistance": ["Lightning"]
+        },
+        {
+          "name": "Brass",
+          "description": "5 by 30 ft. line (Dex. save)",
+          "under_race_resistance": ["Fire"]
+        },
+        {
+          "name": "Bronze",
+          "description": "5 by 30 ft. line (Dex. save)",
+          "under_race_resistance": ["Lightning"]
+        },
+        {
+          "name": "Copper",
+          "description": "5 by 30 ft. line (Dex. save)",
+          "under_race_resistance": ["Acid"]
+        },
+        {
+          "name": "Gold",
+          "description": "15 ft. cone (Dex. save)",
+          "under_race_resistance": ["Fire"]
+        },
+        {
+          "name": "Green",
+          "description": "15 ft. cone (Con. save)",
+          "under_race_resistance": ["Poison"]
+        },
+        {
+          "name": "Red",
+          "description": "15 ft. cone (Dex. save)",
+          "under_race_resistance": ["Fire"]
+        },
+        {
+          "name": "Silver",
+          "description": "15 ft. cone (Con. save)",
+          "under_race_resistance": ["Cold"]
+        },
+        {
+          "name": "White",
+          "description": "15 ft. cone (Con. save)",
+          "under_race_resistance": ["Cold"]
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Dwarf",
+      "description": "Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs—these common threads unite all dwarves.",
+      "speed": 25,
+      "bonuses": [{ "name": "KO", "bonus": 2 }],
+      "standard_size": { "min": 121, "max": 152, "description": "" },
+      "standard_age": [50, 350],
+      "standard_weight": 150,
+      "languages": ["Common", "Dwarvish"],
+      "race_skills": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Dwarven Resilience",
+          "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+        },
+        {
+          "name": "Dwarven Combat Training",
+          "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+        },
+        {
+          "name": "Tool Proficiency",
+          "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+        },
+        {
+          "name": "Stonecunning",
+          "description": "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+        }
+      ],
+      "under_species": [
+        {
+          "name": "Hill Dwarf",
+          "description": "As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerûn in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting.",
+          "under_race_bonus": [{ "name": "WE", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Dwarven Toughness",
+              "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+            }
+          ]
+        },
+        {
+          "name": "Mountain Dwarf",
+          "description": "As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You’re probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerûn, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves.",
+          "under_race_bonus": [{ "name": "ST", "bonus": 2 }],
+          "under_race_skills": [
+            {
+              "name": "Dwarven Armor Training",
+              "description": "You have proficiency with light and medium armor."
+            }
+          ]
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Elf",
+      "description": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.",
+      "speed": 30,
+      "bonuses": [{ "name": "GE", "bonus": 2 }],
+      "standard_size": { "min": 152, "max": 182, "description": "" },
+      "standard_age": [100, 750],
+      "standard_weight": 70,
+      "languages": ["Common", "Elvish "],
+      "race_skills": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Keen Senses",
+          "description": "You have proficiency in the Perception skill."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+        },
+        {
+          "name": "Trance",
+          "description": "Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+        }
+      ],
+      "under_species": [
+        {
+          "name": "High Elf",
+          "description": "As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races. The sun elves of Faerûn (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold.",
+          "under_race_bonus": [{ "name": "IN", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Elf Weapon Training",
+              "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+            },
+            {
+              "name": "Cantrip",
+              "description": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
+            },
+            {
+              "name": "Extra Language",
+              "description": "You can speak, read, and write one extra language of your choice."
+            }
+          ]
+        },
+        {
+          "name": "Wood Elf ",
+          "description": "As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerûn, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves. Wood elves' skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel.",
+          "under_race_bonus": [{ "name": "WE", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Elf Weapon Training",
+              "description": "You have proficiency with the longsword, shortsword, shortbow, and longbow."
+            },
+            {
+              "name": "Fleet of Foot",
+              "description": "Your base walking speed increases to 35 feet."
+            },
+            {
+              "name": "Mask of the Wild",
+              "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+            }
+          ]
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Gnome",
+      "description": "A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.",
+      "speed": 25,
+      "bonuses": [{ "name": "IN", "bonus": 2 }],
+      "standard_size": { "min": 91, "max": 121, "description": "" },
+      "standard_age": [40, 500],
+      "standard_weight": 40,
+      "languages": ["Common", "Gnomish"],
+      "race_skills": [
+        {
+          "name": "Darkvision",
+          "description": "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Gnome Cunning",
+          "description": "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+        }
+      ],
+      "under_species": [
+        {
+          "name": "Deep Gnome",
+          "description": "Forest gnomes and rock gnomes are the gnomes most commonly encountered in the lands of the surface world. There is another subrace of gnomes rarely seen by any surface-dweller: deep gnomes, also known as svirfneblin. Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins. When you create a gnome character, you may choose the deep gnome as an alternative to the subraces in the Player’s Handbook.",
+          "under_race_bonus": [{ "name": "GE", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Superior Darkvision",
+              "description": "Your darkvision has a radius of 120 feet."
+            },
+            {
+              "name": "Stone Camouflage",
+              "description": "You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+            }
+          ],
+          "under_race_lang": ["Undercommon"],
+          "under_race_size": { "min": 91, "max": 92, "description": "" },
+          "under_race_age": [25, 250]
+        },
+        {
+          "name": "Rock Gnome",
+          "description": "As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes. Most gnomes in the worlds of D&D are rock gnomes, including the tinker gnomes of the Dragonlance setting.",
+          "under_race_bonus": [{ "name": "KO", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Artificer's Lore",
+              "description": "Whenever you make an Intelligence check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+            },
+            {
+              "name": "Tinker",
+              "description": "You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options: Clockwork Toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents. Fire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action. Music Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed."
+            }
+          ]
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Half-Elf",
+      "description": "Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.",
+      "speed": 30,
+      "bonuses": [
+        { "name": "YU", "bonus": 1 },
+        { "name": "YU", "bonus": 1 },
+        { "name": "CH", "bonus": 2 }
+      ],
+      "standard_size": { "min": 152, "max": 182, "description": "" },
+      "standard_age": [20, 180],
+      "standard_weight": 75,
+      "languages": ["Common", "Elvish ", "one of your choice"],
+      "race_skills": [
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Fey Ancestry",
+          "description": "You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+        },
+        {
+          "name": "Skill Versatility",
+          "description": "You gain proficiency in two skills of your choice."
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Halfling",
+      "description": "The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along a dirt road or a raft floating downriver.",
+      "speed": 25,
+      "bonuses": [{ "name": "GE", "bonus": 2 }],
+      "standard_size": { "min": 91, "max": 92, "description": "Small" },
+      "standard_age": [20, 150],
+      "standard_weight": 40,
+      "languages": ["Common", "Halfling"],
+      "race_skills": [
+        {
+          "name": "Lucky",
+          "description": "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+        },
+        {
+          "name": "Brave",
+          "description": "You have advantage on saving throws against being frightened."
+        },
+        {
+          "name": "Halfling Nimbleness",
+          "description": "You can move through the space of any creature that is of a size larger than yours."
+        }
+      ],
+      "under_species": [
+        {
+          "name": "Lightfoot Halfling",
+          "description": "As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety. Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.",
+          "under_race_bonus": [{ "name": "CH", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Naturally Stealthy",
+              "description": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+            }
+          ],
+          "under_race_resistance": []
+        },
+        {
+          "name": "Stout Halfling",
+          "description": "As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.",
+          "under_race_bonus": [{ "name": "KO", "bonus": 1 }],
+          "under_race_skills": [
+            {
+              "name": "Stout Resilience",
+              "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+            }
+          ],
+          "under_race_resistance": ["Poison"]
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Half-Orc",
+      "description": "Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human communities, sometimes form alliances. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud leaders of orc communities. Some venture into the world to prove their worth. Many of these become adventurers, achieving greatness for their mighty deeds.",
+      "speed": 30,
+      "bonuses": [
+        { "name": "ST", "bonus": 2 },
+        { "name": "KO", "bonus": 1 }
+      ],
+      "standard_size": { "min": 152, "max": 213, "description": "Medium" },
+      "standard_age": [14, 75],
+      "standard_weight": 75,
+      "languages": ["Common", "Orc"],
+      "race_skills": [
+        {
+          "name": "Darkvision",
+          "description": "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Menacing",
+          "description": "You gain proficiency in the Intimidation skill."
+        },
+        {
+          "name": "Relentless Endurance",
+          "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+        },
+        {
+          "name": "Savage Attacks",
+          "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Human",
+      "description": "In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.",
+      "speed": 30,
+      "bonuses": [
+        { "name": "ST", "bonus": 1 },
+        { "name": "KO", "bonus": 1 },
+        { "name": "GE", "bonus": 1 },
+        { "name": "IN", "bonus": 1 },
+        { "name": "WE", "bonus": 1 },
+        { "name": "CH", "bonus": 1 }
+      ],
+      "standard_size": { "min": 182, "max": 182, "description": "Medium" },
+      "standard_age": [65, 90],
+      "standard_weight": 75,
+      "languages": ["Common", "one of your choice"],
+      "under_species": [
+        {
+          "name": "Variant Human",
+          "description": "If your campaign uses the optional feat rules from the Player’s Handbook, your Dungeon Master might allow these variant traits, all of which replace the human’s Ability Score Increase trait.",
+          "under_race_bonus": [
+            { "name": "YU", "bonus": 1 },
+            { "name": "YU", "bonus": 1 }
+          ],
+          "under_race_skills": [
+            {
+              "name": "Skills",
+              "description": "You gain proficiency in one skill of your choice."
+            },
+            {
+              "name": "Feat",
+              "description": "You gain one feat of your choice."
+            }
+          ]
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    },
+    {
+      "name": "Tiefling",
+      "description": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.",
+      "speed": 30,
+      "bonuses": [
+        { "name": "IN", "bonus": 1 },
+        { "name": "CH", "bonus": 2 }
+      ],
+      "standard_size": { "min": 182, "max": 182, "description": "Medium" },
+      "standard_age": [65, 100],
+      "standard_weight": 75,
+      "languages": ["Common", "Infernal"],
+      "resistance": ["fire"],
+      "race_skills": [
+        {
+          "name": "Darkvision",
+          "description": "hanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+        },
+        {
+          "name": "Hellish Resistance",
+          "description": "You have resistance to fire damage."
+        },
+        {
+          "name": "Infernal Legacy",
+          "description": "You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+        }
+      ],
+      "hand_book": "Player's Handbook / Basic Rules"
+    }
+  ]
+}
